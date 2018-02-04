@@ -11,6 +11,14 @@ SubProgram : DGPS.c (Calculate the position of the mobile robot and convert the 
 OutputFile : test2.text (Trajectory of the autonomous navigation)
 
 
+# Usage
+0. connect the DGPS 
+
+1. Compile and execute DGPS.c
+
+2. Complie and execute navigation.c
+
+
 # Algorithm
 1. The mobile robot achives the autonomous navigation by approaching the targets(waypoints) from start to the goal
 
