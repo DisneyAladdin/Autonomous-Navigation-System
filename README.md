@@ -6,7 +6,7 @@ InputFile : test1.txt (MAP for the autonomous navigation indicated by plane cord
 
 MainProgram : navigation.c (Execute the autonomous navigation)
 
-SubProgram : DGPS.c (Calculate the position of the mobile robot)
+SubProgram : DGPS.c (Calculate the position of the mobile robot and convert the postioning data into plane cordinate)
 
 OutputFile : test2.text (Trajectory of the autonomous navigation)
 
@@ -18,4 +18,6 @@ OutputFile : test2.text (Trajectory of the autonomous navigation)
 
 3. If the distance between the robot and the target is less than 0.5m, change target to next waypoint.
 
-4. In order to modify the positioning error caused by wheel sleppage, we use DGPS(Differential Global Positioning System).
+4. In order to modify the positioning error caused by wheel slippage, we use DGPS(Differential Global Positioning System).
+
+5. The DGPS's positioning data is shared with MainProgram(navigation.c) by share memory.
