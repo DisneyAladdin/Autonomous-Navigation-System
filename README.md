@@ -30,6 +30,8 @@ OutputFile : test2.text (Trajectory of the autonomous navigation)
 
 5. The DGPS's positioning data is shared with MainProgram(navigation.c) by share memory.
 
+6. Hemisphere A101 is used as the DGPS (https://hemispheregnss.com/Products/Products/Position/a101e284a2-smart-antenna-758)
+
 # Licence 
 CopyRight (c) 2018 Shuto Kawabata
 
