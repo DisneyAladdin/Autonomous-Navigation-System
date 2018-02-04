@@ -6,8 +6,7 @@ InputFile : test1.txt (MAP for the autonomous navigation indicated by plane cord
 
 MainProgram : navigation.c (Execute the autonomous navigation)
 
-SubProgram : DGPS.c (Calculate the position of the mobile robot)
-
+SubProgram : DGPS.c (Calculate the position of the mobile robot)¥n
 OutputFile : test2.text (Trajectory of the autonomous navigation)
 
 
