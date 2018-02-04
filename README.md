@@ -12,7 +12,7 @@ OutputFile : test2.text (Trajectory of the autonomous navigation)
 
 
 # Usage
-0. connect the DGPS 
+0. Prepare the mobile robot and the DGPS (USB Cable, Power, PC) 
 
 1. Compile and execute DGPS.c
 
