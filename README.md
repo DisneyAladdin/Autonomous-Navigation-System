@@ -21,3 +21,14 @@ OutputFile : test2.text (Trajectory of the autonomous navigation)
 4. In order to modify the positioning error caused by wheel slippage, we use DGPS(Differential Global Positioning System).
 
 5. The DGPS's positioning data is shared with MainProgram(navigation.c) by share memory.
+
+# Licence 
+CopyRight (c) 2018 Shuto Kawabata
+
+Released under the MIT licence
+
+https://opensource.org/licenses/MIT
+
+
+# Author
+Shuto Kawabata
