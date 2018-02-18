@@ -2,7 +2,7 @@
 This program is used for autonomous navigation of the mobile robot.
 
 # Contents
-InputFile : test1.txt (MAP for the autonomous navigation indicated by plane cordinate (X,Y). Made from https://github.com/shutokawabata0723/GPS program or 
+InputFile : test1.txt (MAP for the autonomous navigation indicated by plane cordinate (X,Y). Made from measurement(https://github.com/shutokawabata0723/GPS) or GoogleMap(https://github.com/shutokawabata0723/Convert-GoogleMap-into-database)
 
 MainProgram : navigation.c (Execute the autonomous navigation)
 
