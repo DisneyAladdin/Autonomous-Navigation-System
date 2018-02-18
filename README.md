@@ -10,6 +10,9 @@ SubProgram : DGPS.c (Calculate the position of the mobile robot and convert the 
 
 OutputFile : test2.text (Trajectory of the autonomous navigation)
 
+# Resume
+https://github.com/shutokawabata0723/Autonomous-Navigation-System/blob/master/autonomous.pdf
+released March 2017
 
 # Usage
 0. Prepare the mobile robot and the DGPS (USB Cable, Power, PC) 
